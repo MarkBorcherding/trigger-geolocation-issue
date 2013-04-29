@@ -28,14 +28,26 @@ ol li:first-child {
   background: #bada55
 }
 
-#forge-geolocation {
+#forge-geolocation { background: #aaa; }
+#forge-geolocation:before {
+  content:"forge.geolocation.getCurrentPosition";
   background: #aaa;
 }
 
 #watchLocation {
   background: #ccc;
 }
+#watchLocation:before {
+  content:"navigator.geolocation.watchPosition";
+  background: #ccc;
+}
+
 
 #getCurrentPosition {
   background: #eee;
+}
+#getCurrentPosition:before {
+  background: #eee;
+  content:"navigator.geolocation.getCurrentPosition";
+  content: "getCurrentPosition"
 }
