@@ -21,7 +21,8 @@ $(function(){
   };
 
   var options = {
-    "enableHighAccuracy": true
+    "enableHighAccuracy": true,
+    "maximumAge": 0
   };
 
   var printForge = function(pos) { printLocation($forge, pos); };
