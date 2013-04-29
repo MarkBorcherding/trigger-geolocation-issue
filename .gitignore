@@ -1,0 +1,7 @@
+development
+.template
+.lib
+local_config.json
+forge-error.log
+src/identity.json
+

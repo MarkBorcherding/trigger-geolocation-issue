@@ -1,0 +1,41 @@
+html, body {
+  height: 100%;
+}
+
+ol {
+  height: 33%;
+  overflow: scroll;
+  padding-left: 50px;
+  margin: 0px;
+}
+
+ol span {
+  font-size: 10px;
+}
+
+.lat,
+.lng {
+  display: inline-block;
+  width: 45%
+}
+
+.accuracy {
+  display: inline-block;
+  width: 10%;
+}
+
+ol li:first-child {
+  background: #bada55
+}
+
+#forge-geolocation {
+  background: #aaa;
+}
+
+#watchLocation {
+  background: #ccc;
+}
+
+#getCurrentPosition {
+  background: #eee;
+}
